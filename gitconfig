@@ -1,11 +1,42 @@
 [user]
-	email = ferrissushi@gmail.com
-	name = NickyHariniai
+  email = ferrissushi@gmail.com
+  name = NickyHariniaina
 [init]
-	defaultBranch = prod
+  defaultBranch = prod
 [core]
-	pager = delta
+  pager = delta
 [interactive]
-	diffFilter = delta --color-only
+  diffFilter = delta --color-only
 [delta]
-	navigate = true
+  navigate = true
+  line-numbers = true
+  syntax-theme = Monokai Extended
+[merge]
+  conflictstyle = zdiff3
+[pull]
+  rebase = true
+[rebase]
+  autosquash = true
+  autostash = true
+[fetch]
+  prune = true
+[branch]
+  sort = -committerdate
+[alias]
+  s = status -s
+  l = log --oneline --graph --decorate -20
+  a = add
+  aa = add -A
+  c = commit
+  cm = commit -m
+  ca = commit --amend
+  push = push -u origin HEAD
+  co = checkout
+  cb = checkout -b
+  b = branch
+  d = diff
+  ds = diff --staged
+  undo = reset HEAD~1 --soft
+  unstage = restore --staged .
+  discard = restore .
+  clean = clean -fd
