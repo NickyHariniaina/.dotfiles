@@ -1,0 +1,24 @@
+{
+    "label" : "lock",
+    "action" : "$HOME/.config/hypr/scripts/ScreenLock.sh",
+    "text" : "Just wait",
+    "keybind" : "l"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "Why would I use this option ?",
+    "keybind" : "r"
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "That's enough for today",
+    "keybind" : "s"
+}
+{
+    "label" : "logout",
+    "action" : "loginctl kill-session $XDG_SESSION_ID",
+    "text" : "Let's restart the session",
+    "keybind" : "l"
+}

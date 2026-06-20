@@ -1,0 +1,12 @@
+-- Main Hyprland configuration (Lua)
+
+require("input")
+require("keybinds")
+require("animation")
+require("exec")
+require("decoration")
+require("other")
+require("window-rule")
+require("general")
+require("hyprland-gui")
+dofile(os.getenv("HOME") .. "/.config/hypr/wallust/wallust-hyprland.lua")

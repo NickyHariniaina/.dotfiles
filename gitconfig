@@ -1,0 +1,11 @@
+[user]
+	email = ferrissushi@gmail.com
+	name = NickyHariniai
+[init]
+	defaultBranch = prod
+[core]
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true

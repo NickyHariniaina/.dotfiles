@@ -1,0 +1,8 @@
+hl.on("hyprland.start", function()
+    hl.exec_cmd("waybar")
+    hl.exec_cmd("dunst")
+    hl.exec_cmd("mpd")
+    hl.exec_cmd("mpd-mpris")
+    hl.exec_cmd("fcitx5 -d")
+    hl.exec_cmd("nm-applet")
+end)

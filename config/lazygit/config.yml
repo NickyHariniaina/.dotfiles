@@ -1,0 +1,37 @@
+gui:
+  showFileTree: true
+  showListFooter: false
+  showRandomTip: false
+  showCommandLog: false
+  showIcons: true
+  border: "rounded"
+
+  theme:
+    activeBorderColor:
+      - "#89b4fa"   # bleu doux (focus)
+      - bold
+
+    inactiveBorderColor:
+      - "#6c7086"   # gris discret
+
+    optionsTextColor:
+      - "#f9e2af"   # jaune léger
+
+    selectedLineBgColor:
+      - "#313244"   # fond sélection
+
+    cherryPickedCommitBgColor:
+      - "#45475a"
+
+    cherryPickedCommitFgColor:
+      - "#89b4fa"
+
+    unstagedChangesColor:
+      - "#f38ba8"   # rouge doux
+
+    defaultFgColor:
+      - "#cdd6f4"
+
+  expandFocusedSidePanel: true
+
+
